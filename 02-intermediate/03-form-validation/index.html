@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ثبت‌نام</title>
+</head>
+<body>
+  <form id="form" novalidate>
+    <label>نام <input name="name"></label>
+    <small class="error" data-for="name"></small>
+
+    <label>ایمیل <input name="email" type="email"></label>
+    <small class="error" data-for="email"></small>
+
+    <label>رمز عبور <input name="password" type="password"></label>
+    <small class="error" data-for="password"></small>
+
+    <label>تکرار رمز <input name="confirm" type="password"></label>
+    <small class="error" data-for="confirm"></small>
+
+    <button>ثبت‌نام</button>
+  </form>
+  <p id="success" hidden>ثبت‌نام موفق بود.</p>
+  <script src="script.js"></script>
+</body>
+</html>
